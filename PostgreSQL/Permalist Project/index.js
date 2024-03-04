@@ -66,8 +66,6 @@ app.post("/edit", async (req, res) => {
 });
 
 app.post("/delete", async (req, res) => {
-  console.log(req.body);
-
   const deleteItemId = req.body.deleteItemId;
 
   // Delete item from database
